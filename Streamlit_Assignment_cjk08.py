@@ -8,6 +8,7 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import plotly.express as px
 from scipy.interpolate import griddata
 import os
+pip install plotly
 
 #Setting the directory and Loading the data
 os.chdir('C:\AUB moodle\MSBA 325\Streamlit_Assignment_cjk08')
