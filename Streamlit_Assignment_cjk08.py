@@ -12,7 +12,7 @@ import os
 
 #Setting the directory and Loading the data
 
-@st.cache_data
+
 df = pd.read_csv('Salary_Data_Based_country_and_race.csv')
 
 
