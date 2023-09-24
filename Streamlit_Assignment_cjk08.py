@@ -11,12 +11,10 @@ import os
 
 
 #Setting the directory and Loading the data
-os.chdir('Salary_Data_Based_country_and_race.csv')
-@st.cache_data
-def load_data():
-    return pd.read_csv('Salary_Data_Based_country_and_race.csv')
 
-df = load_data()
+@st.cache_data
+df = pd.read_csv('Salary_Data_Based_country_and_race.csv')
+
 
 # Check for missing values in each column
 missing_values = df.isnull().sum()
