@@ -9,11 +9,11 @@ import plotly.express as px
 from scipy.interpolate import griddata
 import os
 
-#Setting the directory and Loading the data
-os.chdir('C:\AUB moodle\MSBA 325\Streamlit_Assignment_cjk08')
+
 @st.cache_data
 def load_data():
     return pd.read_csv('Salary_Data_Based_country_and_race.csv')
+)
 
 df = load_data()
 
