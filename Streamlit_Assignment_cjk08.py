@@ -202,9 +202,11 @@ elif section == "Choropleth Map by Gender":
 
     # Display interpretation based on selected gender
     if gender_selected == "male":
+        st.write("Male Interpretation: " )
         st.write("The visualization displays the average salary for males across different countries. Highlighted regions indicate countries with data, with color intensity representing the salary range. The USA, in yellow, has the highest average male salary nearing 123k. China, depicted in dark purple, and Australia, in lighter purple, follow closely with salaries slightly below the USA. The salary gradient ranges from 120k to 123k, indicating a relatively narrow salary variance across these countries for males.")
         # Add the interpretation for male here
     elif gender_selected == "female":
+        st.write("Female Interpretation: " )
         st.write("The visualization showcases the average salary for females across selected countries. The USA, depicted in dark purple, has the highest average female salary approaching 110k. China, in yellow, and Australia, in light purple, follow, with their average female salaries being slightly lower than the USA. The salary gradient indicates a range from 106k to 110k, suggesting a modest salary difference across these countries for females.")
         # Add the interpretation for female here
 
