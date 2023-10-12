@@ -13,7 +13,7 @@ import os
 @st.cache_data
 def load_data():
     return pd.read_csv('Salary_Data_Based_country_and_race.csv')
-)
+
 
 df = load_data()
 
